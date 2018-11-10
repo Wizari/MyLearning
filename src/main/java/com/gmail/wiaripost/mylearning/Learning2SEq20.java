@@ -1,6 +1,6 @@
 package com.gmail.wiaripost.mylearning;
 
-public class LearningSEq20 {
+public class Learning2SEq20 {
     public static void main(String[] args) {
         int x = 100;
         int i = 10;

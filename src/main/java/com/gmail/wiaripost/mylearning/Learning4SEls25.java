@@ -5,7 +5,7 @@ import com.gmail.danze.framework.DanzeHelper;
 import javax.swing.*;
 import java.util.Random;
 
-public class LearningSEls26 {
+public class Learning4SEls25 {
 
 
 //    public static String reverseLine(String line) {

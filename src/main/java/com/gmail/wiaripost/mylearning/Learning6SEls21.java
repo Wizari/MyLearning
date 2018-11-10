@@ -1,6 +1,6 @@
 package com.gmail.wiaripost.mylearning;
 
-public class LearningSEls21 {
+public class Learning6SEls21 {
 
 
 

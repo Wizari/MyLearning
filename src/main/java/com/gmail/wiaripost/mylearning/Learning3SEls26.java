@@ -1,6 +1,6 @@
 package com.gmail.wiaripost.mylearning;
 
-public class LearningSEls25 {
+public class Learning3SEls26 {
 
     public static void main(String[] args) {
         String pack = "1234567890";

@@ -5,29 +5,55 @@ package com.gmail.wiaripost.mylearning;
 //Закончить последовательность - введением 0. За min принять первое число
 // введеное с клавиатуры.(min - переменная)
 
-import com.gmail.danze.framework.DanzeHelper;
-import java.util.Arrays;
 import java.util.Scanner;
-public class LearningSEls24 {
+
+public class Learning5SEls24 {
+
     public static void main(String[] args) {
-        System.out.print("введите миниматьное число:");
+        System.out.print("введите минимальное число:");
         Scanner smin = new Scanner(System.in);
-        Scanner sstop = new Scanner(System.in);
-        int min  = smin.nextInt();
-        String stop = sstop.nextLine();
-//        while(sc.hasNext() && !s1.equals("exit")) {
-            if (stop.equals("exit")) {
-                System.out.println(min);
+        int min = smin.nextInt();
+//        Scanner sstop = new Scanner(System.in);
+        String stop = "q";
+
+
+
+
+        int[] a = new int[0];
+//        int[] b = new int[0];
+//        int[] c = new int[a.length + b.length];
+        int index = 0;
+        //        for (int i = 0;; i++) {
+        for (int i = 0;; i++) {
+            System.out.print("Ввведите число: ");
+            Scanner scanner = new Scanner(System.in);
+//            int[] numbers = new int[0];
+//            numbers[i] = scanner.nextInt();
+//            if (stop.equals("q"))
+            if (scanner.nextInt() == 0) {
+                break;
             }
-//        System.out.println(min);
+            System.out.print(a);
+
         }
 
-
+    }
 }
 
 
-
-     //  int[] numbers = DanzeHelper.inputNumbers(10);
+//        Scanner sstop = new Scanner(System.in);
+//        int min  = smin.nextInt();
+//        String stop = sstop.nextLine();
+////        while(sc.hasNext() && !s1.equals("exit")) {
+//            if (stop.equals("exit")) {
+//                System.out.println(min);
+//            }
+////        System.out.println(min);
+//        }
+//
+//
+//}
+//  int[] numbers = DanzeHelper.inputNumbers(10);
 //        int[] numbers = DanzeHelper.inputNumbersZeroForExit();
 
 //        System.out.println("Вы ввели: " + DanzeHelper.arrayToString(numbers));
@@ -40,7 +66,7 @@ public class LearningSEls24 {
 //            int n = scan.nextInt();
 //            sb = (sb + " " + n);
 //            System.out.println(n);
- //if (n == 0){
+//if (n == 0){
 // break;
 // }
 //        }
@@ -71,9 +97,6 @@ public class LearningSEls24 {
 //        System.out.println(sb);
 //    }
 //}
-
-
-
 
 
 //        String[] arr = new String[Integer.MAX_VALUE];

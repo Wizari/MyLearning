@@ -1,6 +1,6 @@
 package com.gmail.wiaripost.mylearning;
 
-public class LearningSEs22 {
+public class Learning1SEs22 {
 //    public static char thereandhere (char there, char here){
 public static void main(String[] args) {
     char a = 'c'-1;
