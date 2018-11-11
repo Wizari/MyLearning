@@ -5,40 +5,68 @@ package com.gmail.wiaripost.mylearning;
 //Закончить последовательность - введением 0. За min принять первое число
 // введеное с клавиатуры.(min - переменная)
 
-import java.util.Scanner;
+import com.gmail.danze.framework.DanzeHelper;
 
 public class Learning5SEls24 {
 
     public static void main(String[] args) {
-        System.out.print("введите минимальное число:");
-        Scanner smin = new Scanner(System.in);
-        int min = smin.nextInt();
-//        Scanner sstop = new Scanner(System.in);
-        String stop = "q";
 
 
-
-
-        int[] a = new int[0];
-//        int[] b = new int[0];
-//        int[] c = new int[a.length + b.length];
-        int index = 0;
-        //        for (int i = 0;; i++) {
-        for (int i = 0;; i++) {
-            System.out.print("Ввведите число: ");
-            Scanner scanner = new Scanner(System.in);
-//            int[] numbers = new int[0];
-//            numbers[i] = scanner.nextInt();
-//            if (stop.equals("q"))
-            if (scanner.nextInt() == 0) {
-                break;
+        for (int j = 0; j < 10; j++) {
+            if (j == 5) {
+                continue;
+                //break;
             }
-            System.out.print(a);
-
+            System.out.println(j);
         }
+
+//        int length = DanzeHelper.inputNumber("Введие длинну последовательности: ");
+//        int[] sequenceFromUser = DanzeHelper.inputLengthIntSequenceFromRandom(length);
+      //  int[] sequenceFromUser = DanzeHelper.inputIntSequenceFromUser("exit");
+       // int array = DanzeHelper.findMinimumFromArray(sequenceFromUser);
+       // System.out.println(array);
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+//        System.out.print("введите минимальное число:");
+//        Scanner smin = new Scanner(System.in);
+//        int min = smin.nextInt();
+////        Scanner sstop = new Scanner(System.in);
+//        String stop = "q";
+
+
+//        int[] a = new int[0];
+////        int[] b = new int[0];
+////        int[] c = new int[a.length + b.length];
+//        int index = 0;
+//        //        for (int i = 0;; i++) {
+//        for (int i = 0;; i++) {
+//            System.out.print("Ввведите число: ");
+//            Scanner scanner = new Scanner(System.in);
+////            int[] numbers = new int[0];
+////            numbers[i] = scanner.nextInt();
+////            if (stop.equals("q"))
+//            if (scanner.nextInt() == 0) {
+//                break;
+//            }
+//            System.out.print(a);
+//
+//        }
+//
+//    }
+//}
 
 
 //        Scanner sstop = new Scanner(System.in);
