@@ -12,7 +12,7 @@ public class Learning2SEq20 {
         List<Integer> result = new ArrayList<>();
         List<Integer> n = new ArrayList<>();
         int gg = 0;
-        for (int z = 10; z <= 99 + 1; z++) {
+        for (int z = 10; z <= 100 + 1; z++) {
             n.add(z);
         }
         // Проверить каждое число numbers на условия задачи
