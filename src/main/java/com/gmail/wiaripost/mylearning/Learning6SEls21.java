@@ -1,4 +1,36 @@
 package com.gmail.wiaripost.mylearning;
+/**
+ * Необходимо отсортировать вводимые на экран числа
+ * (ввод должен заканчиваться точкой, если не ошибаюсь)
+ * по убыванию (игнорируя буквы) и ответ вывести на экран.
+ *
+ * То есть, если на вход подаются следующие символы:
+ * 14ф73п439
+ *
+ * То программа должна вывести:
+ * 97431
+ *
+ * Вот текст самого задания:
+ *
+ * На вход программе подается последовательность символов,
+ * среди которых встречаются и цифры. Ввод символов
+ * заканчивается точкой (в программе на языке Бейсик
+ * символы можно вводить по одному в строке, пока не
+ * будет введена точка). Требуется написать как можно
+ * более эффективную программу (укажите используемую
+ * версию языка программирования, например, Borland Pascal 7.0),
+ * которая составит из тех цифр, которые встречаются во
+ * входных данных, максимальное число. При составлении
+ * итогового числа каждая цифра может быть использована
+ * только один раз. Если во входных данных цифры не
+ * встречаются, то следует вывести "-1".
+ *
+ * Например, пусть на вход подаются следующие символы:
+ * 14ф73п439
+ *
+ * В данном случае программа должна вывести
+ * 97431
+ * */
 
 import com.gmail.danze.framework.DanzeHelper;
 
@@ -8,36 +40,7 @@ import java.util.List;
 
 public class Learning6SEls21 {
     public static void main(String[] args) {
-        String [] f = DanzeHelper.inputStringSequenceFromUser("aa");
-        List<String> in = new ArrayList<String>();
-//        in.add(f);
-        int maxLengthString = 0;
-        for(int i=0;i<f.length;i++){
-            if(f[i].length()>maxLengthString){
-                maxLengthString = f[i].length();
-            }
-        }
-        for(int i=0;i<f.length;i++){
-            if(f[i].length()==maxLengthString){
-//                Str.replace('s', 'b')
-//                System.out.println(Arrays.toString(new String[]{f[i]}));
-                in.add(f[i].replace("a", "d"));
-            }
-        }
-
-        System.out.println(in);
-//        System.out.println(Arrays.toString(f));
-//        System.out.println(Arrays.toString(in));
 
     }
 
 }
-
-
-
-
-
-
-
-//            Arrays.sort(students);
-

@@ -24,10 +24,10 @@ public class Test {
         System.out.println("fds");
         for (int j = 10; j < 100; j++) {
             int[] dividers = DanzeHelper.finAllDividers(j);
-            boolean isEven = DanzeHelper.checkEvenDivider(dividers);
-            if (isEven) {
-                System.out.println("Число " + j + "имеет четную сумму делителей");
-            }
+//            boolean isEven = DanzeHelper.checkEvenDivider(dividers);
+//            if (isEven) {
+//                System.out.println("Число " + j + "имеет четную сумму делителей");
+//            }
 
 
         }
