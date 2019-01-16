@@ -57,7 +57,7 @@ public class EnglishWriteAnswer {
             System.out.println("Yeah Bitch! ＼(￣▽￣)／");
         }
         else {
-            System.out.println("Неа  .｡･ﾟﾟ･(＞_＜)･ﾟﾟ･｡.");
+            System.out.println("Неа  .｡･ﾟﾟ･(＞_＜)･ﾟﾟ･｡." + "Правильный ответ: " + temp);
         }
 
     }
