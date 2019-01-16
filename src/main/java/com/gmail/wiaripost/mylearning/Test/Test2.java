@@ -1,4 +1,4 @@
-package com.gmail.wiaripost.mylearning;
+package com.gmail.wiaripost.mylearning.Test;
 
 import java.util.*;
 

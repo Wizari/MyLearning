@@ -1,4 +1,4 @@
-package com.gmail.wiaripost.mylearning;
+package com.gmail.wiaripost.mylearning.Test;
 
 public class test4 {
     public static void main(String[] args) {

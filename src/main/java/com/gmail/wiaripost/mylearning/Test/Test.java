@@ -1,6 +1,7 @@
-package com.gmail.wiaripost.mylearning;
+package com.gmail.wiaripost.mylearning.Test;
 
 import com.gmail.danze.framework.DanzeHelper;
+import com.gmail.wiaripost.mylearning.User;
 
 public class Test {
     public static void main(String[] args) {

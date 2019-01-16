@@ -40,6 +40,24 @@ public class TestHelper {
         int number = min + rnd.nextInt(max - min + 1);
         return number;
     }
+
+    public static int[] generateRandomUnique(int min, int max, int quantity) {
+        int[] arr = new int[quantity];
+        for (int i = 0; i < quantity ; i++) {
+            arr[i] = generateRandom(min, max);
+            if (i != 0) {
+                for (int j = 0; j < i; j++) {
+                    if (arr[i] == arr[j]) {
+                        arr[i] = 0;
+                        i--;
+                    }
+                }
+            }
+
+            
+        }
+        return arr;
+    }
     /**
      * Метод заполняет не занятые минами ячейки, числами равными количеству мин находящихся вокруг ячейки
      * @param matrix матрица где мины обозначены числами > 8, пустные ячейки обозначены 0

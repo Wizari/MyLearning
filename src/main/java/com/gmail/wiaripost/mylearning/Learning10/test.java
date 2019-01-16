@@ -5,7 +5,7 @@ import com.gmail.wiaripost.mylearning.TestHelper;
 public class test {
     public static void main(String[] args) {
 //        TestHelper.stringToChar();
-        String name = "Сaterpillar";
+        String name = "ЯСaterpillar";
         String soutName = new String();
         for (int i = 0; i < name.length() ; i++) {
             soutName += (TestHelper.stringToChar(name, i)+ ", ");
@@ -14,7 +14,7 @@ public class test {
         }
         System.out.println(soutName);
 //        System.out.println(" ");
-        String name2 = "Caterpillar";
+        String name2 = " Caterpillar";
         String soutName2 = new String(" ");
         for (int i = 0; i < name2.length() ; i++) {
             soutName2 += (TestHelper.stringToChar(name2, i)+ ", ");

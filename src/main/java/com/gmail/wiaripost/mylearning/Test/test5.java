@@ -1,4 +1,6 @@
-package com.gmail.wiaripost.mylearning;
+package com.gmail.wiaripost.mylearning.Test;
+
+import com.gmail.wiaripost.mylearning.TestHelper;
 
 public class test5 {
     public static void main(String[] args) {
