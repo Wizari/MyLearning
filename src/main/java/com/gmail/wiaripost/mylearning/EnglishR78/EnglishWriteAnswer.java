@@ -13,13 +13,13 @@ public class EnglishWriteAnswer {
         arr.add(new WordAndTranslation("be happy", "быть счастливым"));
         arr.add(new WordAndTranslation("be hungry / starving", "быть голодным"));
         arr.add(new WordAndTranslation("be sick", "быть больным"));
-        arr.add(new WordAndTranslation("be well","быть здоровым (или чувствовать себя хорошо)"));
-        arr.add(new WordAndTranslation("be ready","быть готовым"));
-        arr.add(new WordAndTranslation("be late","опаздывать"));
-        arr.add(new WordAndTranslation("be sorry","сожалеть"));
-        arr.add(new WordAndTranslation("be sure","быть уверенным"));
-        arr.add(new WordAndTranslation("be angry","сердиться"));
-        arr.add(new WordAndTranslation("be busy","быть занятым"));
+        arr.add(new WordAndTranslation("be well", "быть здоровым (или чувствовать себя хорошо)"));
+        arr.add(new WordAndTranslation("be ready", "быть готовым"));
+        arr.add(new WordAndTranslation("be late", "опаздывать"));
+        arr.add(new WordAndTranslation("be sorry", "сожалеть"));
+        arr.add(new WordAndTranslation("be sure", "быть уверенным"));
+        arr.add(new WordAndTranslation("be angry", "сердиться"));
+        arr.add(new WordAndTranslation("be busy", "быть занятым"));
         arr.add(new WordAndTranslation("be away", "отсутствовать"));
         arr.add(new WordAndTranslation("be back", "возвращаться"));
         arr.add(new WordAndTranslation("be confused", "быть в замешательстве"));
@@ -40,9 +40,8 @@ public class EnglishWriteAnswer {
         arr.add(new WordAndTranslation("be offline", "быть оффлайн"));
 
 
-
-        int[] random = TestHelper.generateRandomUnique(0, (arr.size()-1), 4);
-        int randomQuestion = random[TestHelper.generateRandom(0, (random.length-1))];
+        int[] random = TestHelper.generateRandomUnique(0, (arr.size() - 1), 4);
+        int randomQuestion = random[TestHelper.generateRandom(0, (random.length - 1))];
 
         System.out.println(arr.get(randomQuestion).getRussian());
         System.out.println(arr.get(random[0]).getEnglish());
@@ -55,46 +54,51 @@ public class EnglishWriteAnswer {
         String temp = arr.get(randomQuestion).getEnglish();
         if (scaner.equals(temp)) {
             System.out.println("Yeah Bitch! ＼(￣▽￣)／");
-        }
-        else {
+        } else {
             System.out.println("Неа  .｡･ﾟﾟ･(＞_＜)･ﾟﾟ･｡." + "Правильный ответ: " + temp);
         }
-
-    }
-}
- class WordAndTranslation {
-    private String english;
-    private String russian;
-
-    public String getEnglish() {
-        return english;
-    }
-
-    public void setEnglish(String english) {
-        this.english = english;
-    }
-
-    public String getRussian() {
-        return russian;
-    }
-
-    public void setRussian(String russian) {
-        this.russian = russian;
-    }
-
-    public WordAndTranslation(String english, String russian) {
-        this.english = english;
-        this.russian = russian;
-    }
-}
-
-
-
 //        String text = "The `urn` (was) %then carried for several rounds around the cremation site, for the last leg of the procession.";
-////        String[] results = text.split("\\W+");
-//        String[] results = text.split("[ \n\t\r.,;:!?{]");
-//
+//        String[] results = text.split("\\W+");
+////    String[] results = text.split("[ \n\t\r.,;:!?{]");
+////
 //        System.out.println(Arrays.toString(results));
+    }
+
+}
+
+
+
+
+
+// class WordAndTranslation {
+//    private String english;
+//    private String russian;
+//
+//    public String getEnglish() {
+//        return english;
+//    }
+//
+//    public void setEnglish(String english) {
+//        this.english = english;
+//    }
+//
+//    public String getRussian() {
+//        return russian;
+//    }
+//
+//    public void setRussian(String russian) {
+//        this.russian = russian;
+//    }
+//
+//    public WordAndTranslation(String english, String russian) {
+//        this.english = english;
+//        this.russian = russian;
+//    }
+//}
+
+
+
+
 
 
 

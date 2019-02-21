@@ -4,8 +4,8 @@ import com.gmail.wiaripost.mylearning.TestHelper;
 
 public class test {
     public static void main(String[] args) {
-//        TestHelper.stringToChar();
-        String name = "ЯСaterpillar";
+//        TestHelper.stringToChar(); ADD DELETE HELP
+        String name = "HELP";
         String soutName = new String();
         for (int i = 0; i < name.length() ; i++) {
             soutName += (TestHelper.stringToChar(name, i)+ ", ");
